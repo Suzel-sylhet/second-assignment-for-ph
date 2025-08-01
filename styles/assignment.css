@@ -1,4 +1,21 @@
 
+.noto-serif-heading{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-description{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
 .nav_item{
     display: flex;
     max-width: 1140px;
@@ -18,4 +35,111 @@ nav ul li{
 
 nav ul a{
     text-decoration: none;
+}
+
+.hedding-text{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+.heading-text-color{
+    color: #E95A08;
+}
+
+.primary-text{
+    font-size: 3.12rem;
+    font-weight: bold;
+}
+
+.secondary-text{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.banner-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 150px;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: end;
+    /* position: relative; */
+}
+
+.plants-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.plants-section-text{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plants-heading{
+    margin-bottom: auto;
+}
+
+.plants-section-photos{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.plants-sample-img{
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#plants-text{
+    font-weight: 500;
+}
+
+#plants-price{
+    font-weight: 700;
+}
+
+.cart-button{
+    background-color: #E95A08;
+    color: white;
+    width: 270px;
+    height: 50px;
+    padding: 15px 40px;
+    border-color: #E95A08;
+}
+
+/* .banner-text{
+    position: absolute;
+    bottom: 0;
+} */
+
+/* .banner-image{
+    position: absolute;
+    bottom: 0;
+} */
+
+@media screen and (width <= 500px) {
+    .hide-us{
+        display: none;
+    }
+    
+    .banner-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .plants-sample-img{
+        margin-right: 10px;
+    }
+
+    .plants-section-photos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
 }
