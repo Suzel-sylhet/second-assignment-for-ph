@@ -139,8 +139,8 @@ nav ul a{
     width: 280px;
     height: 280px;
     position: relative;
-    left: 350px;
-    bottom: -220px;
+    left: 250px;
+    bottom: -200px;
 }
 
 .plants-store-content{
@@ -161,6 +161,118 @@ nav ul a{
 .plants-sotre-list li{
     margin-bottom: 20px;    
 }
+
+.deals-section{
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.deals-section-text{
+    max-width: 900px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.deals-section-text h3{
+    margin-bottom: 0;
+}
+
+.typs-of-plants{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+}
+
+.bloom-ana-plants{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-left: -100px;
+}
+
+.zabo-plants{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-left: -100px;
+}
+
+.zabo-text{
+    position: absolute;
+    left: 180px;
+    top: 25%;
+}
+
+#zabo-discount-text{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#zabo-link-text{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.deals-plants-img{
+    border-radius: 10px;
+    max-width: 350px;
+    height: auto;
+}
+
+.deals-plants-zabo-img{
+    border-radius: 10px;
+    max-width: 750px;
+    height: auto;
+}
+
+.bloom-plants{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.bloom-text{
+    position: absolute;
+    left: 100px;
+    top: 20%;
+    
+}
+
+.discount-text{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.link-text{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.ana-plants{
+    position: relative;
+    margin-top: 10px;
+}
+
+.ana-text{
+    position: absolute;
+    left: 100px;
+    top: 20%;
+    
+}
+
+
+
+
 
 @media screen and (width <= 500px) {
     .hide-us{
@@ -209,5 +321,34 @@ nav ul a{
         padding: 0 20px;
   }
     
+    .typs-of-plants{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bloom-ana-plants{
+        margin: auto;
+    }
+
+    .zabo-plants{
+        margin: auto;
+    }
+
+    .zabo-plants img{
+        max-width: 360px;
+    }
+
+    .zabo-text{
+        top: 30%;
+        left: 130px;
+    }
+
+    #zabo-discount-text{
+        font-size: 1.1rem;
+    }
+    
+    #zabo-link-text{
+        font-size: 1rem;
+    }
     
 }
